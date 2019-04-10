@@ -1,6 +1,6 @@
 describe('find talent test cases', function () {
 
-    context('user visiting star profile from search result page ', function () {
+    context('user visiting person card in search result page ', function () {
         before(() => {
             cy.visit('https://dev.workmarket.com/login');
             cy.get('input[id="login-email"]').type('qa+candidatetest@workmarket.com');
